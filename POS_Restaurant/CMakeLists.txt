@@ -11,6 +11,7 @@ qt_add_executable(POS_Restaurant
     mainwindow.cpp
     mainwindow.h
     mainwindow.ui
+    orderpage.h orderpage.cpp orderpage.ui
 )
 
 target_link_libraries(POS_Restaurant
