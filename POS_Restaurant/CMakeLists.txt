@@ -8,9 +8,9 @@ qt_standard_project_setup()
 qt_add_executable(POS_Restaurant
     WIN32 MACOSX_BUNDLE
     main.cpp
-    mainwindow.cpp
-    mainwindow.h
-    mainwindow.ui
+    HomePage.cpp
+    HomePage.h
+    HomePage.ui
     orderpage.h orderpage.cpp orderpage.ui
 )
 
